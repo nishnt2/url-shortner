@@ -1,0 +1,18 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "nishant",
+  "license": "ISC",
+  "description": "A URL shortening service, creating just to refresh my nodejs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.1",
+    "shortid": "^2.2.16"
+  }
+}
